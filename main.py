@@ -1,4 +1,3 @@
-
 summa = 0
 skaitlis = []
 with open('skaitli.txt', encoding = "utf-8") as f:
@@ -14,6 +13,5 @@ with open('skaitlis.txt', mode = "w",  encoding = "utf-8") as f:
   f.writelines('Rezultāts ir ' + str(summa) + '\n')
 
 
-
-
+  print("Tests")
 
